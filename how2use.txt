@@ -1,0 +1,8 @@
+cd /home/eddyr/_others/audio-player/khinside-ruby
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt   # (or just `pip install cloudscraper`)
+python main.py --system snes --output ./snes_midis --delay 2.0 --resume
+
+
+//////
+just copy and paste. when you have repo cloned into your machine.
